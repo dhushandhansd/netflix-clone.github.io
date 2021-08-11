@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+.main-container {
+    background-image: linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),url('/assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 7%;
+}
+
+.navbar {
+    display: flex;
+    background: transparent;
+    padding: 30px 50px;
+    justify-content: space-between;
+}
+
+.navbar-brand > img {
+    cursor: pointer;
+}
+
+.navbar-buttons > select {
+    cursor: pointer;
+}
+
+.navbar-buttons > select > option {
+    color: black;
+}
+
+.navbar-buttons > button {
+    cursor: pointer;
+}
+
+.lang, .sign-in {
+    width: 75px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: transparent;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.lang {
+    width: 85px;
+    margin-right: 20px;
+}
+
+.red-color {
+    background-color: #E50914;
+    border: none;
+    color: white;
+}
+
+
+.wordings-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.wordings {
+    width: 40%;
+    word-wrap: break-word;
+    font-size: 1.4rem;
+    margin-top: 7%;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.watch-cancel {
+    font-size: 300;
+}
+
+.email-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.email-address-field {
+    width: 35%;
+    height: 55px;
+    border: none;
+    box-shadow:inset 0 0 1px 1px #888;
+    border-radius: 3px;
+    padding-left: 10px;
+    font-size: 1rem;
+    color: black;
+}
+
+.email-address-field:focus {
+    outline: none;
+}
+
+.get-started-btn {
+    height: 55px;
+    width: 10%;
+    font-size: 1.3rem;
+    border: none;
+    background-color: #E50914;
+    cursor: pointer;
+}
+
+.get-started-btn:focus {
+    outline: none;
+}
+
+.seperator {
+    width: 100%;
+    height: 10px;
+    background-color: #28282B ;
+}
+
+.margin-spacing {
+    margin-top: 10%;
+}
+
+.tv-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tv-text-container {
+    flex: 1;
+    margin: 150px 50px;
+}
+
+.tv-text-container > h1 {
+    font-size: 2.5em
+}
+
+.tv-text-container > p {
+    font-size: 1.5rem;
+}
+
+.tv-image-container {
+    flex: 1;
+}
+
+.tv {
+    z-index: 999;
+}
+
+.tv-video {
+    width: 386px;
+    height: 355px;
+    position: absolute;
+    right: 147px;
+}
+
+.mobile-container {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mobile-image-container {
+    flex: 1;
+}
+
+.mobile-text-container {
+    flex: 1;
+}
+
+.mobile-image-container > img {
+    width: 504px;
+    height: 378px;
+}
+
+.mobile-text-container > h1 {
+    font-size: 3rem;
+}
+
+.mobile-text-container > p {
+    font-size: 1.5rem;
+}
+
+.mobile-text-container {
+    flex: 1;
+    margin: 150px 50px;
+}
+
+.devices-container {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.device-text-container {
+    flex: 1;
+    margin: 160px 50px;
+}
+
+.device-text-container > h1 {
+    font-size: 3rem;
+}
+
+.device-text-container > p {
+    font-size: 1.6rem;
+}
+
+.device-image-container {
+    flex: 1;
+}
+
+.device-image-container > img {
+    width: 555px;
+    height: 416px;
+    margin-right: 10%;
+}
+
+.children-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.children-image-container {
+    flex: 1;
+}
+
+.children-image-container > img {
+    width: 504px;
+    height: 378px;
+    margin-left: 10%;
+}
+
+.children-text-container {
+    flex: 1;
+    margin: 130px 50px;
+}
+
+.children-text-container > h1 {
+    font-size: 3rem;
+}
+
+.children-text-container > p {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+
+.credits-container {
+    padding-top: 50px;
+}
