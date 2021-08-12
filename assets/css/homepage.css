@@ -176,15 +176,41 @@
     flex: 1;
 }
 
-.tv {
-    z-index: 999;
+.tv-image-container > img {
+    max-width: 470px;
+    max-height: 397px;
 }
 
 .tv-video {
     width: 386px;
     height: 355px;
     position: absolute;
-    right: 147px;
+}
+
+@media only screen and (min-width: 320px) {
+    
+    .tv-image-container > img {
+        min-width: 340px;
+        min-height: 397px;
+    }
+    
+    .tv-video {
+        left: 62px;
+        max-width: 340px;
+        max-height: 390px;
+    }
+}
+
+@media only screen and (min-width : 720px) {
+    .tv-video {
+        left: 51%;
+    }
+}
+
+@media only screen and (min-width: 1024px ) {
+    .tv-video {
+        left: 58.5%;
+    }
 }
 
 .mobile-container {
@@ -203,7 +229,7 @@
 }
 
 .mobile-image-container > img {
-    width: 504px;
+    max-width: 482px;
     height: 378px;
 }
 
@@ -244,9 +270,8 @@
 }
 
 .device-image-container > img {
-    width: 555px;
+    max-width: 515px;
     height: 416px;
-    margin-right: 10%;
 }
 
 .children-container {
@@ -260,9 +285,16 @@
 }
 
 .children-image-container > img {
-    width: 504px;
+    min-width: 304px;
     height: 378px;
     margin-left: 10%;
+}
+
+@media only screen and (min-width: 320px) {
+    .children-image-container > img {
+        max-width: 404px;
+    }
+        
 }
 
 .children-text-container {
