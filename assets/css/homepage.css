@@ -9,7 +9,7 @@
 
 .main-container {
     /*background-image: linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),url('/assets/bg.jpg');*/
-	background-image: url('/assets/bg.jpg');
+    background-image: url('/assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     padding-bottom: 7%;
