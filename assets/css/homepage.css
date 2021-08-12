@@ -10,6 +10,8 @@
 .main-container {
     /*background-image: linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),url('/assets/bg.jpg');*/
     background-image: url('/assets/bg.jpg');
+    background-color: black;
+    background-image: url('/assets/netflix-bg.jpg');
     background-repeat: no-repeat;
     background-size: contain;
     padding-bottom: 7%;
@@ -51,6 +53,10 @@
 .lang {
     width: 85px;
     margin-right: 20px;
+}
+
+.lang:focus {
+    outline: none;
 }
 
 .red-color {
@@ -104,10 +110,29 @@
     outline: none;
 }
 
+.email-validation-container {
+    display: flex;
+    justify-content: center;
+}
+
+.email-validation-container > p {
+    color: rgb(236, 194, 8);
+    display: none;
+}
+
 .get-started-btn {
     height: 55px;
     width: 10%;
     font-size: 1.3rem;
+    border: none;
+    background-color: #E50914;
+    cursor: pointer;
+}
+
+.get-started-button {
+    height: 55px;
+    width: 10%;
+    font-size: .8em;
     border: none;
     background-color: #E50914;
     cursor: pointer;
@@ -254,11 +279,34 @@
 }
 
 footer {
+    display: inline-block;
+    font-weight: 200;
+    width: 100vw;
+    margin-top: 10%;
+}
+
+.get-started-label-container {
+    text-align: center;
+}
+
+.subscription-container {
     display: flex;
     justify-content: center;
-    font-weight: 100;
+    flex-wrap: wrap;
+    margin: 20px 0 5px 0;
+}
+
+.email-validation-label {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 20px 0;
+}
+
+.email-validation-label > p {
+    color: rgb(236, 194, 8);
+    display: none;
 }
 
 .credits-container {
-    padding-top: 50px;
+    text-align: center;
 }
