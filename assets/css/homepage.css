@@ -67,6 +67,10 @@
     color: white;
 }
 
+.navbar-buttons > button > a {
+    text-decoration: none;
+}
+
 
 .wordings-container {
     display: flex;
