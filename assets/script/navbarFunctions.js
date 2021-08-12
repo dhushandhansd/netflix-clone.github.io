@@ -17,3 +17,10 @@ if(localStorage.getItem('language') === 'English') {
   selectIndex = 2;
   langSelect.selectedIndex = selectIndex;
 }
+
+let signInButton = document.getElementById('#sign-in-btn')
+
+signInButton.addEventListener('click', () => {
+  window.location.href = 'https://dhushandhansd.github.io/netflix-clone.github.io/index.html'
+  // window.location.href = 'http://127.0.0.1:5500/login.html'
+})
