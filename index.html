@@ -11,6 +11,7 @@
     <meta property='og:image' content="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_medium.jpg">
     <meta property='og:site_name' content="Netflix India Clone UKSD">
     <link rel="stylesheet" href="./assets/css/homepage.css" type="text/css">
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
     <title>Netflix India - UKSD</title>
 </head>
 <body>
@@ -22,7 +23,8 @@
                         <img width="134" height="36" src="./assets/netflix-logo.png" alt="logo">
                     </div>
                     <div class="navbar-buttons">
-                        <select class="lang">
+                        <select onchange="langSelection()" id="langSelect" class="lang">
+                            <option value="none" selected disabled hidden>Language</option>
                             <option value="English">English</option>
                             <option value="Tamil">Tamil</option>
                             <option value="Hindi">Hindi</option>
@@ -41,8 +43,11 @@
                 </div>
             </div>
             <div class="email-container">
-                <input type="email" class="email-address-field" placeholder="Email address">
+                <input type="email" class="email-address-field" placeholder="Email address" required>
                 <button type="submit" class="get-started-btn">Get Started</button>
+            </div>
+            <div class="email-validation-container">
+                <p class="invalid-email-text"></p>
             </div>
         </div>
         <div class="seperator margin-spacing"></div>
@@ -88,10 +93,24 @@
         </div>
         <div class="seperator"></div>
         <footer>
+            <div class="get-started-label-container">
+                <p class="email-text">Ready to watch? Enter your email to create or restart your membership.</p>
+            </div>
+            <div class="subscription-container">
+                <input id="subscription-input" type="email" class="email-address-field" placeholder="Email address" required>
+                <button id="subscription-btn" type="submit" class="get-started-button">Get Started</button>
+            </div>
+            <div class="email-validation-label">
+                <p class="email-validation-text"></p>
+            </div>
             <div class="credits-container">
-                <h3>Netflix India Clone - UKSD</h3>
+                <h3>Netflix India - UKSD</h3>
             </div>
         </footer>
     </div>
+
+
+    <script src="/assets/script/navbarFunctions.js"></script>
+    <script src="/assets/script/signup.js"></script>
 </body>
 </html>
