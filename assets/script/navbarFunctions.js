@@ -19,5 +19,5 @@ if(localStorage.getItem('language') === 'English') {
 }
 
 function navigatorFunction() {
-  localtion.href = 'https://dhushandhansd.github.io/netflix-clone.github.io/login.html'
+  location.href = 'https://dhushandhansd.github.io/netflix-clone.github.io/login.html'
 }
