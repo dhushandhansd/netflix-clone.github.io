@@ -134,3 +134,19 @@
   color: #797979d0;
   font-weight: bold;
 }
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dd1933;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9e2636;
+}

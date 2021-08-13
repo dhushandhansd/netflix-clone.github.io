@@ -353,3 +353,19 @@ footer {
 .credits-container {
     text-align: center;
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #888888;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dd1933;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #9e2636;
+}
