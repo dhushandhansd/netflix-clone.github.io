@@ -41,7 +41,7 @@ signInButton.addEventListener('click', () => {
 
 function onChangeFunction() {
   if(!(emailInput.value == null) && !(passwordInput.value)) {
-    invalidEmailText.innerHTML = 'none'
-    invalidPasswordText.innerHTML = 'none'
+    invalidEmailText.style.display = 'none'
+    invalidPasswordText.style.display = 'none'
   }
 }
