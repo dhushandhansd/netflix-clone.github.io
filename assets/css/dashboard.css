@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Noto Sans', sans-serif;
+  color: white;
+}
+
+body {
+  background-image:linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),
+     url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.coming-soon-text {
+  color: red;
+}
