@@ -7,6 +7,10 @@
     color: white;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 .main-container {
     /*background-image: linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),url('/assets/bg.jpg');*/
     background-color: black;
@@ -16,7 +20,7 @@
     background-size: cover;
     background-position: center center ;
     background-attachment: fixed;
-    padding-bottom: 7%;
+    padding-bottom: 7%; 
     width: 100vw;
 }
 
@@ -56,6 +60,7 @@
 .lang {
     width: 85px;
     margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.459);
 }
 
 .lang:focus {
@@ -92,7 +97,33 @@
 }
 
 .watch-cancel {
-    font-size: 300;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.email-text {
+    margin-top:40px;
+    font-size: 1rem;
+}
+
+@media only screen and (max-width:720px)  {
+    .wordings {
+        width:100%;
+        margin-right: 10px;
+    }
+
+    .title {
+        font-size: 1.8rem;
+    }
+
+    .watch-cancel {
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+
+    .email-text {
+        font-weight: 500;
+        margin-top: 10px;    }
 }
 
 .email-container {
@@ -100,6 +131,19 @@
     justify-content: center;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+@media only screen and (max-width:720px) {
+    .email-container {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:720px) {
+    .email-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .email-address-field {
@@ -354,7 +398,7 @@ footer {
 .credits-container {
     text-align: center;
 }
-
+/* 
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -369,4 +413,4 @@ footer {
 
 ::-webkit-scrollbar-thumb:hover {
     background-color: #9e2636;
-}
+} */

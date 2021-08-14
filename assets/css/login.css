@@ -5,6 +5,7 @@
   margin: 0px;
   font-family: 'Noto Sans', sans-serif;
   color: white;
+  overflow: hidden;
 }
 
 .main-container {
@@ -14,6 +15,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
+  height: 100vh;
 }
 
 .navbar-container {
@@ -48,14 +50,10 @@
   margin: 50px 30px 20px 60px;
 }
 
-.email-address-field, .password-field {
+.email-address-field, .password-field, .signin-btn-container {
   width: 65%;
+  border-radius: 4px;
 }
-
-.signin-btn-container {
-  width: 68.5%;
-}
-
 
 .email-address, .password, .signin {
   width: 100%;
@@ -63,8 +61,13 @@
   background-color: #302e2e;
   border: none;
   border-radius: 5px;
+  border-top-right-radius: 5px;
   padding-left: 15px;
   font-size: 1rem;
+} 
+
+.email-address, .password, .signin {
+  width: 100%;
 }
 
 .email-address:focus, .password:focus, .signin:focus {
@@ -135,7 +138,7 @@
   color: #797979d0;
   font-weight: bold;
 }
-
+/* 
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -150,4 +153,4 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #9e2636;
-}
+} */
