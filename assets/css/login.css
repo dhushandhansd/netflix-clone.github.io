@@ -138,6 +138,12 @@
   color: #797979d0;
   font-weight: bold;
 }
+
+.signin-text:hover {
+  text-decoration: underline;
+  color: red;
+}
+
 /* 
 ::-webkit-scrollbar {
   width: 10px;
