@@ -8,7 +8,7 @@
 }
 
 body {
-  background-image:linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),
+  background-image:linear-gradient( to top,rgba(0, 0, 0, 0.89) 0,rgba(0, 0, 0, 0.555) 60%,rgba(0,0,0,.8)),
      url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
   background-position: center center;
   background-repeat: no-repeat;

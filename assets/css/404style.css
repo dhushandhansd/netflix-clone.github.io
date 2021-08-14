@@ -9,8 +9,8 @@
 
 .main-container {
   background-color: black;
-  background-image:linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),
-    url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
+  background-image:linear-gradient( to top,rgba(0, 0, 0, 0.89) 0,rgba(0, 0, 0, 0.555) 60%,rgba(0,0,0,.8)),
+     url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center ;

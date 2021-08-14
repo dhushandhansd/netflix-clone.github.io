@@ -14,7 +14,7 @@ html {
 .main-container {
     /*background-image: linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),url('/assets/bg.jpg');*/
     background-color: black;
-    background-image:linear-gradient( to top,rgba(0,0,0,.8) 0,rgba(0,0,0,0) 60%,rgba(0,0,0,.8)),
+    background-image:linear-gradient( to top,rgba(0, 0, 0, 0.89) 0,rgba(0, 0, 0, 0.555) 60%,rgba(0,0,0,.8)),
      url('https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -250,7 +250,7 @@ html {
 }
 
 .tv-video {
-    width: 386px;
+    width: 400px;
     height: 355px;
     position: absolute;
 }
@@ -264,8 +264,8 @@ html {
     
     .tv-video {
         left: 62px;
-        max-width: 340px;
-        max-height: 390px;
+        min-width: 340px;
+        min-height: 390px;
     }
 }
 
