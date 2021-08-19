@@ -17,15 +17,17 @@ Netflix India Cloned with all Original Assets and Validation
 
 ## App Workflow
 
-![Netflix Workflow](https://dhushandhansd.github.io/netflix-clone.github.io/assets/netflix-flow.png)
+![Netflix Workflow](https://dhushandhansd.github.io/netflix-clone.github.io/netflix-flow.png)
 
 ## App Breakdown
 
-> The Whole App
+The Whole App
 
-| Resources | Real App Resources |
+```sh
+Resources  ---> Real App Resources
+```
 
-> Home Page
+Home Page
 
 | Components           | Style                                     |
 | -------------------- | ----------------------------------------- |
@@ -37,20 +39,20 @@ Netflix India Cloned with all Original Assets and Validation
 | Children Section     | Flex Box                                  |
 | Subscription Section | Block, Flex Subscription Field            |
 
-> Login Page
+Login Page
 
 | Components    | Style                 |
 | ------------- | --------------------- |
 | Navbar        | Flex                  |
 | Login Section | Flex - Justify Center |
 
-> Dashboard
+Dashboard
 
 | Components | Style                                    |
 | ---------- | ---------------------------------------- |
 | Title      | Flex, justify center, align items center |
 
-> 404 Error
+404 Error
 
 | Components | Style                                    |
 | ---------- | ---------------------------------------- |
